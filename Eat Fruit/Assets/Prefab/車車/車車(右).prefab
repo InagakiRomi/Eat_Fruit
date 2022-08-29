@@ -192,6 +192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CarDead: {fileID: 3254366676832317696}
+  TimerCarDead: 0
+  CarLife: 10
 --- !u!1 &3254366677748584470
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +353,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CarDead: {fileID: 3254366676832317696}
+  TimerCarDead: 0
+  CarLife: 10
 --- !u!1 &3254366678376802123
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,3 +514,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CarDead: {fileID: 3254366676832317696}
+  TimerCarDead: 0
+  CarLife: 10

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4000758608981467252}
   - component: {fileID: 4000758608981467255}
   - component: {fileID: 4000758608981467253}
+  - component: {fileID: 697583840921370831}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -152,3 +153,18 @@ MonoBehaviour:
   AgainstGravityScale: 1
   FallGravityScale: 1.5
   PS1: {fileID: 1567031728997009171, guid: 6d1b75b6deabcb7488cfa8f702a8cfd2, type: 3}
+  myRbody: {fileID: 0}
+--- !u!114 &697583840921370831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4000758608981467248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce735fa86f006b4f831e9d5557dede7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 5
+  myRbody: {fileID: 0}

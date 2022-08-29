@@ -28,7 +28,7 @@ namespace CreativeSpore.SuperTilemapEditor.PlayMakerActions
             }
             */
 
-            EditorApplication.update += DoWelcomeScreen;
+            //EditorApplication.update += DoWelcomeScreen;
 
         }
 
@@ -36,7 +36,7 @@ namespace CreativeSpore.SuperTilemapEditor.PlayMakerActions
         {
             if (!Playmaker4STEWelcomeWindow.CheckPlaymakerInstalled() || !Playmaker4STEWelcomeWindow.CheckSuperTilemapEditorInstalled())
             {
-                //Playmaker4STEWelcomeWindow.Display();
+                Playmaker4STEWelcomeWindow.Display();
             }
             EditorApplication.update -= DoWelcomeScreen;
         }
@@ -52,6 +52,7 @@ namespace CreativeSpore.SuperTilemapEditor.PlayMakerActions
             wnd.minSize = wnd.maxSize;
             wnd.position = new Rect(new Vector2(Screen.currentResolution.width / 2f, Screen.currentResolution.height / 2f) - wnd.maxSize / 2f, wnd.maxSize);
         }
+
         public static bool CheckPlaymakerInstalled()
         {
             var symbol = GetType("PlayMakerGlobals");

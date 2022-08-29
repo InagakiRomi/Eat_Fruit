@@ -8,7 +8,7 @@ public class GM : MonoBehaviour
 {
     public GameObject Go;
     private GameObject Player;
-    private Player PlayerScript;
+    private Sound SE03;
 
     public Text scoreText;
     public int score = 0, goal = 10;
@@ -19,7 +19,7 @@ public class GM : MonoBehaviour
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
-        PlayerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        SE03 = GameObject.Find("SE03").GetComponent<Sound>();
         ClearBool = false;
         UpdateElements();
         GO();
@@ -41,6 +41,7 @@ public class GM : MonoBehaviour
     public void EatFruit()
     {
         score++;
+        SE03.PLAYchange();
         UpdateElements();
     }
 
