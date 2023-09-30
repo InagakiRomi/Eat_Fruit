@@ -423,6 +423,90 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 70934493}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &163503941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 802695214}
+    m_Modifications:
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.9945893
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.66846
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.9871
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0348
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215810757241394853, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_Name
+      value: BlackWall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c534483f4bc3f96498f71d9fc476c00c, type: 3}
+--- !u!4 &163503942 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+    type: 3}
+  m_PrefabInstance: {fileID: 163503941}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &173221878
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,7 +981,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.12941177, g: 0.121568635, b: 0.18823531, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2134,6 +2218,7 @@ Transform:
   - {fileID: 610880114}
   - {fileID: 1394942095}
   - {fileID: 844834101}
+  - {fileID: 163503942}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &831988370
@@ -6279,7 +6364,7 @@ Tilemap:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -110, y: -80, z: 0}
   m_Size: {x: 202, y: 146, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileAnchor: {x: 0, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
     e00: 1

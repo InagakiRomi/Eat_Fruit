@@ -498,7 +498,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.12941177, g: 0.121568635, b: 0.18823531, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1098,6 +1098,7 @@ Transform:
   - {fileID: 610880114}
   - {fileID: 1394942095}
   - {fileID: 1890373309}
+  - {fileID: 7617410731162862547}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &857382792
@@ -4537,7 +4538,7 @@ Tilemap:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -56, y: -39, z: 0}
   m_Size: {x: 112, y: 92, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileAnchor: {x: 1, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
     e00: 1
@@ -5401,6 +5402,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TruckControl
       objectReference: {fileID: 0}
+    - target: {fileID: 7830417115163299629, guid: d9081baf836a1f14299a2344701e4a83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8791426815979325870, guid: d9081baf836a1f14299a2344701e4a83,
         type: 3}
       propertyPath: m_RootOrder
@@ -5907,6 +5913,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3401192582549856697, guid: 58599747a7d16c644bb0605840abe242,
     type: 3}
   m_PrefabInstance: {fileID: 7584427436479675981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7617410731162862546
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 802695214}
+    m_Modifications:
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.466412
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.247
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1333
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215810757241394853, guid: c534483f4bc3f96498f71d9fc476c00c,
+        type: 3}
+      propertyPath: m_Name
+      value: BlackWall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c534483f4bc3f96498f71d9fc476c00c, type: 3}
+--- !u!4 &7617410731162862547 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3050443249019709426, guid: c534483f4bc3f96498f71d9fc476c00c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7617410731162862546}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
