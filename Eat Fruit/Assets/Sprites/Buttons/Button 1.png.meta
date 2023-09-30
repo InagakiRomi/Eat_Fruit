@@ -558,7 +558,7 @@ TextureImporter:
       213: -5900816307636457399
     second: Button 1_184
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -575,9 +575,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -586,9 +589,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -609,10 +612,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -624,6 +632,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -636,6 +645,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4536,9 +4572,194 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Button 1_0: 1945269359277807493
+      Button 1_1: 7295293355442117084
+      Button 1_10: -90808845503963651
+      Button 1_100: -7247458299451697268
+      Button 1_101: 4318044676897006630
+      Button 1_102: 5915944558560823737
+      Button 1_103: 2682870393305413303
+      Button 1_104: 3396944622795904786
+      Button 1_105: -8107231121133016165
+      Button 1_106: 6655231893570419262
+      Button 1_107: -5274572839885710731
+      Button 1_108: 700440310504604431
+      Button 1_109: 7949545143222970702
+      Button 1_11: -2011874510567571847
+      Button 1_110: -7986874747915406875
+      Button 1_111: 3370087096968056291
+      Button 1_112: -2746956334586631382
+      Button 1_113: 842046087380946005
+      Button 1_114: 4916079890514496638
+      Button 1_115: -2423688309224413211
+      Button 1_116: 8149816202352573529
+      Button 1_117: -6120575513272657407
+      Button 1_118: 7350615436819733678
+      Button 1_119: -7919982830600019847
+      Button 1_12: 464490792671463974
+      Button 1_120: -7724512688958320427
+      Button 1_121: -3421720531770368008
+      Button 1_122: -1444361777321982634
+      Button 1_123: 7557380060829393106
+      Button 1_124: 1169425063548023506
+      Button 1_125: -7245958614346395196
+      Button 1_126: 8837759144915874156
+      Button 1_127: 6815062079510079127
+      Button 1_128: 1985215012195983100
+      Button 1_129: 8662633436298450350
+      Button 1_13: -1137569842067167340
+      Button 1_130: 1902024822277445964
+      Button 1_131: -5069641551117277969
+      Button 1_132: 6440110180047299451
+      Button 1_133: -3250492034607435553
+      Button 1_134: -7922128854468388161
+      Button 1_135: 4466367180167955334
+      Button 1_136: -7332196024455695769
+      Button 1_137: 5443089316720296251
+      Button 1_138: -1157228377549375409
+      Button 1_139: -4849265704458579637
+      Button 1_14: -3589834776360712378
+      Button 1_140: 8922964809304251183
+      Button 1_141: -8334314255403747271
+      Button 1_142: -9190781835343445977
+      Button 1_143: 3563591563177545953
+      Button 1_144: -1031839584806080367
+      Button 1_145: 1945537310171745096
+      Button 1_146: 1294350127251409011
+      Button 1_147: -887334335417845497
+      Button 1_148: -4930970366648032644
+      Button 1_149: -2692765832004324034
+      Button 1_15: -249167850586077093
+      Button 1_150: -8745458509707382264
+      Button 1_151: 9176154750791385932
+      Button 1_152: -3186709795463243503
+      Button 1_153: 2785803395047180760
+      Button 1_154: 5150518264371868375
+      Button 1_155: -4394332371711687134
+      Button 1_156: 1752431017994553761
+      Button 1_157: 5327858133045561721
+      Button 1_158: 3351463492232326728
+      Button 1_159: -7655554034252393035
+      Button 1_16: 2724950893418799361
+      Button 1_160: 7947591830810213738
+      Button 1_161: -1489468507464401691
+      Button 1_162: 8469950386306232306
+      Button 1_163: -4829343787533353902
+      Button 1_164: -745456454994261707
+      Button 1_165: -3619824456177726613
+      Button 1_166: 8974090566490173166
+      Button 1_167: -4364175306187493721
+      Button 1_168: 3365969426062540430
+      Button 1_169: 8654367158882751343
+      Button 1_17: -3378758993889402300
+      Button 1_170: -8031083026426156287
+      Button 1_171: -7338366681636596743
+      Button 1_172: -6977132153083752080
+      Button 1_173: 6145261376527904847
+      Button 1_174: 6451023440101950424
+      Button 1_175: 6225130432807303648
+      Button 1_176: -4601879519939653472
+      Button 1_177: 4625093727225006564
+      Button 1_178: 409266947469763416
+      Button 1_179: 1766155865925262735
+      Button 1_18: 6843508637955150744
+      Button 1_180: -6425331955534479136
+      Button 1_181: 3488037930932985709
+      Button 1_182: 3597277674359389871
+      Button 1_183: 3344688843076431785
+      Button 1_184: -5900816307636457399
+      Button 1_19: 2870130833190776929
+      Button 1_2: -4564723269634655129
+      Button 1_20: 7355544782399977590
+      Button 1_21: -311335979351087520
+      Button 1_22: 7614516374872105148
+      Button 1_23: -3828910056138948068
+      Button 1_24: 5596504055592627349
+      Button 1_25: -4216777188142465789
+      Button 1_26: -6153389911712941814
+      Button 1_27: -4785832228311161320
+      Button 1_28: -458953823296515453
+      Button 1_29: 7450026376128257281
+      Button 1_3: -4678885998541973743
+      Button 1_30: 2934207940529698131
+      Button 1_31: 6980960877719606166
+      Button 1_32: 797554800544107018
+      Button 1_33: -7756434667564987394
+      Button 1_34: -7746635975940623780
+      Button 1_35: -6355154961874057036
+      Button 1_36: -2432082916547579358
+      Button 1_37: -8497780173101514262
+      Button 1_38: 2796622880847589065
+      Button 1_39: -1559759088421366087
+      Button 1_4: 8859924932756759494
+      Button 1_40: -2318736224633652532
+      Button 1_41: -7549273974316072331
+      Button 1_42: -8219948931598899893
+      Button 1_43: 3386792154993548365
+      Button 1_44: 5247330685525685282
+      Button 1_45: -5378315605608424356
+      Button 1_46: 8430659059201103770
+      Button 1_47: 1250942844266237401
+      Button 1_48: -1019280497559459183
+      Button 1_49: -4905320754082737635
+      Button 1_5: 6710314133941613129
+      Button 1_50: 2156235300079831489
+      Button 1_51: 4307912853106939826
+      Button 1_52: 3594312361956273209
+      Button 1_53: 538603451650410745
+      Button 1_54: 1539162615874106843
+      Button 1_55: 2791462448974041308
+      Button 1_56: -7972978018859828878
+      Button 1_57: 5332030150830346824
+      Button 1_58: -978345392394914828
+      Button 1_59: -4167136181035095125
+      Button 1_6: 8842439337349065659
+      Button 1_60: -101783237528828932
+      Button 1_61: -2719876597353708611
+      Button 1_62: 6950216367901843085
+      Button 1_63: -6808354476978255702
+      Button 1_64: 2406557905742421859
+      Button 1_65: 4686078851428261695
+      Button 1_66: -8105333406358541755
+      Button 1_67: -1452865604757596530
+      Button 1_68: 2819397013372212077
+      Button 1_69: 5196765022736277251
+      Button 1_7: 2678220786396507881
+      Button 1_70: 3433115715223474558
+      Button 1_71: 4602798220072498617
+      Button 1_72: 4922668620036470542
+      Button 1_73: -9196156878794817696
+      Button 1_74: -816657357136908560
+      Button 1_75: -3247512171095564917
+      Button 1_76: 7354823616375086253
+      Button 1_77: 8872653182936429629
+      Button 1_78: -5711581094015099629
+      Button 1_79: -6061914045152877338
+      Button 1_8: 7815670086113990372
+      Button 1_80: 2661543659738084089
+      Button 1_81: 8344822827117754375
+      Button 1_82: 2436815634587985972
+      Button 1_83: 7490040733059858362
+      Button 1_84: 6118247167526857234
+      Button 1_85: -7793283574141938186
+      Button 1_86: -8806578381124730209
+      Button 1_87: -6924408661688080785
+      Button 1_88: 8428807353225704664
+      Button 1_89: 5736726903283384195
+      Button 1_9: 8525462612977820115
+      Button 1_90: 8917254717008864798
+      Button 1_91: -2995210029407679375
+      Button 1_92: 7352924158467636671
+      Button 1_93: -2997539615153175847
+      Button 1_94: -8839484105956814697
+      Button 1_95: 3072951490873688842
+      Button 1_96: 6380215271958623876
+      Button 1_97: 4149291498223438147
+      Button 1_98: 2368415065608917508
+      Button 1_99: 4749651557158998807
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
