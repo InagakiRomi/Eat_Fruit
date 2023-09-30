@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1102 &-2009845754745579440
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "\u65CB\u8F49\u677F(\u7070)"
+  m_Name: PlatformsGrey
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -50,7 +50,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
 --- !u!1107 &7824916982741760203
 AnimatorStateMachine:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
