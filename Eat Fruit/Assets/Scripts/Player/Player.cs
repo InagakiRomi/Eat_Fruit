@@ -2,6 +2,7 @@
 
 public class Player : MonoBehaviour
 {
+    [Header("Other")]
     [SerializeField] public float MoveSpeed=10;
     public float JumpImpulse = 7f;
     public ContactFilter2D ContactFilter;
@@ -24,7 +25,7 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         if(GM.ClearBool == false){
-            //Walk();
+            Walk();
         }
         else
         {

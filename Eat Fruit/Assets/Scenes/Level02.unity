@@ -5283,7 +5283,12 @@ PrefabInstance:
     - target: {fileID: 1669001341917916058, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
         type: 3}
       propertyPath: SceneName
-      value: "03\u7B2C\u4E09\u95DC"
+      value: Level03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669001341917916058, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
+        type: 3}
+      propertyPath: startingSceneIndex
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1669001341917916060, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
         type: 3}

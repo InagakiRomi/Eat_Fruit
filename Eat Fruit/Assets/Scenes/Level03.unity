@@ -5350,7 +5350,7 @@ PrefabInstance:
     - target: {fileID: 1669001341917916058, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
         type: 3}
       propertyPath: SceneName
-      value: "04\u7B2C\u56DB\u95DC"
+      value: Level04
       objectReference: {fileID: 0}
     - target: {fileID: 1669001341917916060, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
         type: 3}
