@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 1669001341228699953}
   - component: {fileID: 1669001341228699952}
   m_Layer: 5
-  m_Name: "\u91CD\u65B0\u958B\u59CB"
+  m_Name: Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -396,7 +396,7 @@ GameObject:
   - component: {fileID: 1669001342444574423}
   - component: {fileID: 1669001342444574422}
   m_Layer: 5
-  m_Name: "\u56DE\u4E3B\u9078\u55AE"
+  m_Name: ToMain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
