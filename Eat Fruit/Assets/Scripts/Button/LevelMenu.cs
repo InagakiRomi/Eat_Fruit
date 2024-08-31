@@ -8,10 +8,11 @@ using UnityEngine.UI;
 public class LevelMenu : MonoBehaviour
 {
     public Button[] buttons;
+    public int UnlockedLevel;
 
     private void Awake()
     {
-        int unlockedlevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
+        int unlockedlevel = PlayerPrefs.GetInt("UnlockedLevel", UnlockedLevel);
         for (int i = 0; i<buttons.Length; i++)
         {
             buttons[i].interactable = false;

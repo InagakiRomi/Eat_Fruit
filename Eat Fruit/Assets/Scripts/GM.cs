@@ -50,10 +50,20 @@ public class GM : MonoBehaviour
         Player.transform.position = Go.transform.position;
     }
 
+    public void NextScene()
+    {
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            // 載入下一個場景並設置為單一模式
+            SceneManager.LoadSceneAsync(nextSceneIndex, LoadSceneMode.Single);
+        }
+    }
+
     IEnumerator Clear()
     {
         ClearBool = true;
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene(SceneName);
+        NextScene();
     }
 }

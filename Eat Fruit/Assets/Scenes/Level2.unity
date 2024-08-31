@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2639,12 +2638,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b40f957b6e1beb642872fdf51ecbac8f, type: 3}
---- !u!1 &970083477 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6365345606319005472, guid: b40f957b6e1beb642872fdf51ecbac8f,
-    type: 3}
-  m_PrefabInstance: {fileID: 970083476}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1035768423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5160,16 +5153,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1669001341228699959, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -147.19995
-      objectReference: {fileID: 0}
-    - target: {fileID: 1669001341228699959, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -17.599854
-      objectReference: {fileID: 0}
     - target: {fileID: 1669001341917916056, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
         type: 3}
       propertyPath: m_Pivot.x
@@ -5179,11 +5162,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1669001341917916056, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1669001341917916056, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
         type: 3}
@@ -5275,42 +5253,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1669001341917916058, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
-        type: 3}
-      propertyPath: Go
-      value: 
-      objectReference: {fileID: 970083477}
-    - target: {fileID: 1669001341917916058, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
-        type: 3}
-      propertyPath: SceneName
-      value: Level03
-      objectReference: {fileID: 0}
-    - target: {fileID: 1669001341917916058, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
-        type: 3}
-      propertyPath: startingSceneIndex
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 1669001341917916060, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
         type: 3}
       propertyPath: m_Name
       value: LevelMenu
       objectReference: {fileID: 0}
-    - target: {fileID: 1669001342444574421, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -44.19995
-      objectReference: {fileID: 0}
-    - target: {fileID: 1669001342444574421, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -17.599854
-      objectReference: {fileID: 0}
-    - target: {fileID: 1669001342509977771, guid: a7e182c12a15f7a40bb8d3e029a6d4f8,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 4138223980208024357, guid: 5100b75572e484e458e4340e2afe9454,
-        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

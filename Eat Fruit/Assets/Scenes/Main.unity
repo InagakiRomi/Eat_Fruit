@@ -1716,6 +1716,7 @@ MonoBehaviour:
   - {fileID: 2031705372}
   - {fileID: 1980532837}
   - {fileID: 951798336}
+  UnlockedLevel: 5
 --- !u!1001 &1980532835
 PrefabInstance:
   m_ObjectHideFlags: 0
